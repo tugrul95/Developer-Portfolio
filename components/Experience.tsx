@@ -12,26 +12,21 @@ const Experience = () => {
       <div className=" container mx-auto 2xl ">
         <div className="flex  flex-row justify-between pt-5">
           <p className="text-gray-300 ">
-            <span className="font-semibold">WebHR /</span> Software Engineer
+            <span className="font-semibold">EndPoint Corp /</span> Software Developer
           </p>
-          <p className="text-gray-300">MAY 2022 - PRESENT, HYDERABAD</p>
+          <p className="text-gray-300">APRL 2022 - JAN, 2024</p>
         </div>
         <p className="text-gray-300 pt-5">
-          Currently, I am working on WebHR Mobile Application, WebHR is a Cloud
-          based Social HR Software for SMEs by Verge Systems Inc. WebHR is
-          currently used in over 160 countries world wide by thousands of
-          organizations to manage HR, As a React.js developer with 1.5 year of
-          experience, I have a strong foundation in creating dynamic and
-          responsive mobile and web applications.
+        • Helped the optimization and ongoing maintenance of Vision Port software products, orchestrating
+            the refinement and sustained performance of the Content Management System, Vision Port Remote,
+            and Touch Screen interfaces. Pioneered strategic initiatives focused on augmenting user experience
+            and functional capabilities, resulting in notable improvements in product efficiency.
+        • Helped the comprehensive redesign of the Bluestone Perennials website, applying advanced software
+            development principles to achieve a seamless and sophisticated user interface. Implemented
+            cutting-edge design patterns and adhered to industry best practices, resulting in an elevated online
+                presence that aligns with contemporary software development standards.
           <br />
           <br />
-          My experience with React Native has allowed me to develop
-          cross-platform mobile applications that run seamlessly on both iOS and
-          Android platforms. Additionally, my proficiency in React.js has
-          equipped me with the skills to create fast, scalable, and dynamic web
-          pages with excellent user experiences. I have a deep understanding of
-          component-based architecture and state management, and I am
-          well-versed in the latest web development trends and technologies.
         </p>
         <div className="flex-col flex sm:flex-row ">
           <div className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">

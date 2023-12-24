@@ -14,92 +14,59 @@ const Projects = () => {
       <div className=" container mx-auto 2xl  ">
         <div className="flex-col flex md:flex-row  mt-7">
           <Link
-            href="https://web.hr/"
+            href="https://beyin-egzersizi.netlify.app/"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1]"
           >
             <div className="flex-row flex mb-5">
               <Image
-                src="/FirstProject.png"
+                src="/scribble-school.png"
                 height={150}
                 width={150}
                 alt="WebHR Project"
               />
               <div className="p-3">
-                <p className="text-white font-semibold text-xl">WebHR</p>
-                <p className="text-gray-500 text-[10px]">
-                  Designed a modern UI website comprising more than 50 screens,
-                  along with the integration of a blog using Next.js.
-                </p>
+                <p className="text-white font-semibold text-xl">Scribble School App</p>
               </div>
             </div>
           </Link>
           <Link
-            href="https://hireside.com/"
+            href="https://vip-clinic.netlify.app/"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1]"
           >
             <div className="flex-row flex mb-5">
               <Image
-                src="/SecondProject.png"
+                src="/vip-clinic.png"
                 height={150}
                 width={150}
                 alt="HireSide"
               />
               <div className="p-3">
-                <p className="text-white font-semibold text-xl">HireSide</p>
-                <p className="text-gray-500 text-[10px]">
-                  Developed a web application on Next.js that allows users to
-                  apply for jobs, create job posts, and manage their company
-                  profiles.
-                </p>
+                <p className="text-white font-semibold text-xl">VIP Clinic</p>
               </div>
             </div>
           </Link>
         </div>
         <div className="flex-col flex md:flex-row ">
           <Link
-            href="https://www.vergesystems.com/"
+            href="https://my-store-ecommerce.netlify.app/"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1]"
           >
             <div className="flex-row flex mb-5">
               <Image
-                src="/ThirdProject.png"
+                src="/my-store.png"
                 height={150}
                 width={150}
                 alt="VergeSystems"
               />
               <div className=" p-3 ">
                 <p className="text-white font-semibold text-xl">
-                  Verge Systems
-                </p>
-                <p className="text-gray-500 text-[10px]">
-                  Developed the Verge Systems website using React.js.
-                </p>
-              </div>
-            </div>
-          </Link>
-          <Link
-            href="http://44.201.47.75/"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="z-[1]"
-          >
-            <div className="flex-row flex mb-5">
-              <Image
-                src="/FourProject.png"
-                height={150}
-                width={150}
-                alt="Payoasis"
-              />
-              <div className="p-3 ">
-                <p className="text-white font-semibold text-xl">Payoasis</p>
-                <p className="text-gray-500 text-[10px]">
-                  Designed the modern UI for a banking website utilizing Gatsby.
+                  E-commerce app  
                 </p>
               </div>
             </div>
