@@ -14,7 +14,7 @@ const Projects = () => {
       <div className=" container mx-auto 2xl  ">
         <div className="flex-col flex md:flex-row  mt-7">
           <Link
-            href="https://beyin-egzersizi.netlify.app/"
+            href="https://scribble-school.netlify.app/"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1]"

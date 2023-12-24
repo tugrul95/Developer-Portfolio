@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <section id="experience">
       <h1 className="text-white font-semibold text-center text-6xl   pt-[35px]">
-        EXPERIENCE
+       LATEST EXPERIENCE
       </h1>
       <p className=" tracking-[0.5em] text-center text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl ">
         EXPLORE NOW
@@ -21,11 +21,11 @@ const Experience = () => {
             the refinement and sustained performance of the Content Management System, Vision Port Remote,
             and Touch Screen interfaces. Pioneered strategic initiatives focused on augmenting user experience
             and functional capabilities, resulting in notable improvements in product efficiency.
+            <br />
         • Helped the comprehensive redesign of the Bluestone Perennials website, applying advanced software
             development principles to achieve a seamless and sophisticated user interface. Implemented
             cutting-edge design patterns and adhered to industry best practices, resulting in an elevated online
                 presence that aligns with contemporary software development standards.
-          <br />
           <br />
         </p>
         <div className="flex-col flex sm:flex-row ">
