@@ -13,14 +13,7 @@ const About = () => {
           EXPLORE NOW
         </p>
         <p className="text-gray-300 text-center ">
-          As a passionate software developer, I thrive on the intricate dance
-          between logic and creativity.
-          <br />
-          <br />
-          With a fervor for crafting elegant solutions, I navigate the
-          ever-evolving landscape of software development. My journey involves
-          translating concepts into code, creating seamless user experiences,
-          and constantly pushing the boundaries of what&#39;s possible
+        I am a software developer who is passionate about creating responsive user interfaces.
         </p>
       </div>
     </section>
