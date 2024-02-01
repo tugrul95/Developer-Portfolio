@@ -13,6 +13,7 @@ const Projects = () => {
       </p>
       <div className=" container mx-auto 2xl  ">
         <div className="flex-col flex md:flex-row  mt-7">
+          {/* Scribble School App */}
           <Link
             href="https://scribble-school.netlify.app/"
             rel="noopener noreferrer"
@@ -31,6 +32,8 @@ const Projects = () => {
               </div>
             </div>
           </Link>
+
+          {/* VIP Clinic */}
           <Link
             href="https://vip-clinic.netlify.app/"
             rel="noopener noreferrer"
@@ -49,7 +52,31 @@ const Projects = () => {
               </div>
             </div>
           </Link>
+
+          {/* Animals of Africa */}
+          <Link
+            href="https://github.com/tugrul95/SwiftUI-Animals-of-Africa"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/animals-of-africa.png"
+                height={150}
+                width={150}
+                alt="VergeSystems"
+              />
+              <div className=" p-3 ">
+                <p className="text-white font-semibold text-xl">
+                  Animals of Africa 
+                </p>
+              </div>
+            </div>
+          </Link>
         </div>
+
+        {/* E-commerce app */}
         <div className="flex-col flex md:flex-row ">
           <Link
             href="https://my-store-ecommerce.netlify.app/"
