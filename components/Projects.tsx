@@ -8,11 +8,11 @@ const Projects = () => {
       <h1 className="text-white font-semibold text-center text-6xl pt-[35px]">
         PROJECTS
       </h1>
-      <p className=" tracking-[0.5em] text-center text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl ">
+      <p className="tracking-[0.5em] text-center text-transparent font-light pb-5 bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500 text-1xl">
         EXPLORE NOW
       </p>
-      <div className=" container mx-auto 2xl  ">
-        <div className="flex-col flex md:flex-row  mt-7">
+      <div className="container mx-auto 2xl">
+        <div className="flex-col flex md:flex-row mt-7">
           {/* Scribble School App */}
           <Link
             href="https://scribble-school.netlify.app/"
@@ -47,12 +47,14 @@ const Projects = () => {
                 width={150}
                 alt="HireSide"
               />
-              <div className="p-3">
+              <div className="p-3 ml-3">
                 <p className="text-white font-semibold text-xl">VIP Clinic</p>
               </div>
             </div>
           </Link>
+        </div>
 
+        <div className="flex-col flex md:flex-row mt-7"> {/* Moved down */}
           {/* Animals of Africa */}
           <Link
             href="https://github.com/tugrul95/SwiftUI-Animals-of-Africa"
@@ -67,17 +69,15 @@ const Projects = () => {
                 width={150}
                 alt="VergeSystems"
               />
-              <div className=" p-3 ">
+              <div className="p-3 ml-3">
                 <p className="text-white font-semibold text-xl">
-                  Animals of Africa 
+                  Animals of Africa
                 </p>
               </div>
             </div>
           </Link>
-        </div>
 
-        {/* E-commerce app */}
-        <div className="flex-col flex md:flex-row ">
+          {/* E-commerce app */}
           <Link
             href="https://my-store-ecommerce.netlify.app/"
             rel="noopener noreferrer"
@@ -91,7 +91,7 @@ const Projects = () => {
                 width={150}
                 alt="VergeSystems"
               />
-              <div className=" p-3 ">
+              <div className="p-3">
                 <p className="text-white font-semibold text-xl">
                   E-commerce app  
                 </p>
