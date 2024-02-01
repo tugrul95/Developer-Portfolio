@@ -129,7 +129,7 @@ const Projects = () => {
             target="_blank"
             className="z-[1]"
           >
-            <div className="flex-row flex mb-5" style={{ marginLeft: '17px' }}>
+            <div className="flex-row flex mb-5" style={{ marginLeft: '53px' }}>
               <Image
                 src="/my-store.png"
                 height={150}
