@@ -14,15 +14,68 @@ const Projects = () => {
       <div className="container mx-auto 2xl">
         <div className="flex-col flex md:flex-row mt-7">
           {/* Scribble School App */}
-          {/* ... (unchanged) */}
+          <Link
+            href="https://scribble-school.netlify.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/scribble-school.png"
+                height={150}
+                width={150}
+                alt="WebHR Project"
+              />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">Scribble School App</p>
+              </div>
+            </div>
+          </Link>
 
           {/* VIP Clinic */}
-          {/* ... (unchanged) */}
+          <Link
+            href="https://vip-clinic.netlify.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/vip-clinic.png"
+                height={150}
+                width={150}
+                alt="HireSide"
+              />
+              <div className="p-3 ml-3">
+                <p className="text-white font-semibold text-xl">VIP Clinic</p>
+              </div>
+            </div>
+          </Link>
         </div>
 
-        <div className="flex-col flex md:flex-row mt-7">
+        <div className="flex-col flex md:flex-row mt-7"> {/* Moved down */}
           {/* Animals of Africa */}
-          {/* ... (unchanged) */}
+          <Link
+            href="https://github.com/tugrul95/SwiftUI-Animals-of-Africa"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5">
+              <Image
+                src="/animals-of-africa.png"
+                height={150}
+                width={150}
+                alt="VergeSystems"
+              />
+              <div className="p-3 ml-3">
+                <p className="text-white font-semibold text-xl">
+                  Animals of Africa
+                </p>
+              </div>
+            </div>
+          </Link>
 
           {/* Crypto-App */}
           <Link
@@ -40,14 +93,13 @@ const Projects = () => {
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">
-                  Crypto App
+                  Crypto App 
                 </p>
               </div>
             </div>
           </Link>
         </div>
-
-        <div className="flex-col flex md:flex-row mt-7">
+        <div className="flex-col flex md:flex-row mt-7"> {/* Moved down */}
           {/* SwiftUI-Weather-App */}
           <Link
             href="https://github.com/tugrul95/SwiftUI-Weather-App"
@@ -55,23 +107,42 @@ const Projects = () => {
             target="_blank"
             className="z-[1]"
           >
-            <div className="flex-row flex mb-5" style={{ marginLeft: '17px' }}>
+            <div className="flex-row flex mb-5">
               <Image
                 src="/weather-app.png"
                 height={150}
                 width={150}
                 alt="VergeSystems"
               />
-              <div className="p-3">
+              <div className="p-3 ml-3">
                 <p className="text-white font-semibold text-xl">
-                  SwiftUI-Weather-App
+                  Weather-App
                 </p>
               </div>
             </div>
           </Link>
 
           {/* E-commerce app */}
-          {/* ... (unchanged) */}
+          <Link
+            href="https://my-store-ecommerce.netlify.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5" style={{ marginLeft: '17px' }}>
+              <Image
+                src="/my-store.png"
+                height={150}
+                width={150}
+                alt="VergeSystems"
+              />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">
+                  E-commerce app  
+                </p>
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
     </section>
