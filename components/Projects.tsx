@@ -121,6 +121,46 @@ const Projects = () => {
               </div>
             </div>
           </Link>
+          <Link
+            href="https://bikers-corner.netlify.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5" style={{ marginLeft: '53px' }}>
+              <Image
+                src="/bikers-corner.png"
+                height={150}
+                width={150}
+                alt="VergeSystems"
+              />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">
+                  Bikers Corner 
+                </p>
+              </div>
+            </div>
+          </Link>
+          <Link
+            href="https://bikers-corner.netlify.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="z-[1]"
+          >
+            <div className="flex-row flex mb-5" style={{ marginLeft: '53px' }}>
+              <Image
+                src="/bikers-corner.png"
+                height={150}
+                width={150}
+                alt="VergeSystems"
+              />
+              <div className="p-3">
+                <p className="text-white font-semibold text-xl">
+                  Bikers Corner 
+                </p>
+              </div>
+            </div>
+          </Link>
 
           {/* E-commerce app */}
           <Link
