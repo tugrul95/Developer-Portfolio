@@ -14,7 +14,6 @@ const Experience = () => {
           <p className="text-gray-300 ">
             <span className="font-semibold">EndPoint Corp /</span> Software Developer
           </p>
-          <p className="text-gray-300">MARCH 2022 - APRIL, 2024</p>
         </div>
         <p className="text-gray-300 pt-5">
         • Helped the optimization and ongoing maintenance of Vision Port software products, orchestrating
